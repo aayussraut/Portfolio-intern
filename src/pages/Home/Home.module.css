@@ -6,15 +6,18 @@
 }
 
 .intro {
+  margin-left: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
+  width: 600px;
   padding: 10px;
 }
 .imgDiv {
-  margin-left: 80px;
-  height: 200px;
+  /* margin-left: 50px; */
+  height: 250px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +28,7 @@
 .homeimg {
   /* display: flex; */
   width: 300px;
-  height: 400px;
+  height: 500px;
 
   /* object-fit: cover; */
   /* object-position: center; */
@@ -55,4 +58,5 @@
 .homeParagraph {
   font-weight: 400;
   color: grey;
+  font-size: x-large;
 }
