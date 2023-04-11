@@ -1,0 +1,16 @@
+.social {
+  height: 50px;
+  width: 50px;
+  background-color: #4bc1ce;
+  /* justify-items: center; */
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 2px red; */
+}
+a {
+  color: white;
+}
