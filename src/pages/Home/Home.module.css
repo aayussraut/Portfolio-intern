@@ -1,0 +1,58 @@
+.homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px;
+}
+.imgDiv {
+  margin-left: 80px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+
+  /* background-color: #4bc1ce; */
+}
+.homeimg {
+  /* display: flex; */
+  width: 300px;
+  height: 400px;
+
+  /* object-fit: cover; */
+  /* object-position: center; */
+}
+
+.homeHeader1,
+.homeHeader4 {
+  margin: 0;
+  font-size: 2rem;
+  color: grey;
+}
+
+.homeHeader1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: grey;
+  /* color: #4bc1ce; */
+}
+.headerSpan4 {
+  color: black;
+}
+.headerSpan1 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.homeParagraph {
+  font-weight: 400;
+  color: grey;
+}
