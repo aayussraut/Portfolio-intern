@@ -3,6 +3,9 @@ import AboutImg from "../../assets/AboutImg.svg";
 import Style from "./About.module.css";
 import AboutPageComponent from "../../components/AboutPageComponent";
 import Button from "../../components/Button";
+import SocialMedia from "../../components/SocialMedia";
+import { TiSocialFacebook, TiSocialLinkedin, TiSocialTwitter } from "react-icons/ti";
+import { AiFillGithub } from "react-icons/ai";
 const About = () => {
   return (
     <div className={Style.about}>
@@ -29,8 +32,18 @@ const About = () => {
           <span style={{ margin: "10px" }}></span> <Button name="Hire Me" />
         </div>
       </div>
-      <div className={Style.imgDiv}>
-        <img src={AboutImg} alt="AboutImg" className={Style.aboutImg} />
+      <div className={Style.container}>
+        <div className={Style.socialMedia}>
+          <SocialMedia link="https://www.facebook.com/aayussraut/" icon={<TiSocialFacebook size={30} />} />
+          <SocialMedia link="https://www.linkedin.com/in/aayussraut/" icon={<TiSocialLinkedin size={30} />} />
+          <SocialMedia link="https://www.github.com/aayussraut/" icon={<AiFillGithub size={30} />} />
+          <SocialMedia link="https://www.twitter.com/aayussraut/" icon={<TiSocialTwitter size={30} />} />
+
+
+        </div>
+        <div className={Style.imgDiv}>
+          <img src={AboutImg} alt="AboutImg" className={Style.aboutImg} />
+        </div>
       </div>
     </div>
   );
