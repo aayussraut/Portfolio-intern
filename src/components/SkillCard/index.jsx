@@ -1,12 +1,12 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
 import Style from "./SkillCard.module.css";
 
-const SkillCard = ({ skill }) => {
+const SkillCard = ({ skill, icon }) => {
   return (
     <div className={`${Style.skillCard}`}>
-      <FaReact size={30} />
-      <h2>React</h2>
+      {icon}
+      <br />
+      <h2>{skill}</h2>
     </div>
   );
 };

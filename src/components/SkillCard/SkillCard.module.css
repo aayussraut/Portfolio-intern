@@ -1,6 +1,6 @@
 .skillCard {
-  width: 200px;
-  height: 100px;
+  width: 180px;
+  height: 200px;
   background-color: #f5f5f4;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -8,10 +8,17 @@
   flex-direction: column;
   /* justify-content: space-between; */
   /* padding: 20px; */
-  transition: all 0.3s ease;
+  transition: background-color 0.2s ease-in-out;
   cursor: pointer;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   align-items: center;
   justify-content: center;
+  margin: 40px;
+  color: grey;
+}
+
+.skillCard:hover {
+  background-color: #4bc1ce;
+  color: white;
 }
