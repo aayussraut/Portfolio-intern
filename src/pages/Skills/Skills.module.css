@@ -11,15 +11,16 @@
   margin: 0;
 }
 .skillPage {
-  margin: 20px;
-  margin-top: 60px;
+  /* margin: 20px; */
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center;     */
-  height: 4 0vh;
+  height: 50vh;
   width: 100vw;
   background-color: white;
+  margin-bottom: 0px;
 }
 
 .skillCard {
