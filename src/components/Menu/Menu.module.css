@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+  color: #ff0000;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 100%;
+  /* margin-left: auto; */
+
+  justify-content: space-between;
+  align-items: center;
+
+  /* border: solid 2px blue; */
+}
+
+.padding {
+  margin-right: 80px;
+  margin-left: auto;
+}

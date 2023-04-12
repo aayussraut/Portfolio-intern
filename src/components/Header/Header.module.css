@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+}
+.box {
+  width: 100%;
+  background-color: #f0f0f0; /* Set a background color for the div */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+  height: 100px; /* Set a height */
+  align-items: center;
+}

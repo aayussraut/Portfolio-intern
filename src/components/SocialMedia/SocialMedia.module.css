@@ -1,0 +1,20 @@
+.social {
+  height: 50px;
+  width: 50px;
+  background-color: #4bc1ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  /* justify-items: center; */
+}
+
+.link {
+  color: white;
+}
+
+.social:hover {
+  background-color: rgb(14, 177, 177);
+  color: grey;
+  box-shadow: 10px 10px 10px rgba(207, 188, 188, 0.1);
+}

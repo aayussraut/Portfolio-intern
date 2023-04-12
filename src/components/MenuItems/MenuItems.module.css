@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+}
+
+.menu {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: x-large;
+  padding: 10px;
+}
+
+.link:hover {
+  color: #4bc1ce;
+}
