@@ -3,6 +3,7 @@ import Style from './Projects.module.css';
 import ProjectCard from '../../components/Project_Card';
 const Projects = () => {
     return (
+
         <div className={Style.project}>
             <div>
                 <p className={Style.subtitle}>
@@ -22,6 +23,7 @@ const Projects = () => {
             </div>
             {/* <h1>Projects</h1> */}
         </div>
+
     )
 }
 export default Projects;
