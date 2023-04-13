@@ -10,6 +10,9 @@
   height: 40px;
 }
 .button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(22, 21, 21, 0.46);
+  margin: 5px;
   background-color: rgb(14, 177, 177);
   color: grey;
   box-shadow: 10px 10px 10px rgba(207, 188, 188, 0.1);
@@ -25,4 +28,10 @@
   font-weight: 600;
   width: 150px;
   height: 40px;
+}
+
+.button2:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(22, 21, 21, 0.46);
+  margin: 5px;
 }
