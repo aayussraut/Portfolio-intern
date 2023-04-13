@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./Projects.module.css";
-import ProjectCard from "../../components/Project_Card";
+import { ProjectCard } from "../../components/Card";
 const Projects = () => {
   return (
     <div id="Projects" className={Style.project}>

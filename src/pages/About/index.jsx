@@ -1,9 +1,8 @@
 import React from "react";
 import AboutImg from "../../assets/AboutImg.svg";
 import Style from "./About.module.css";
-import AboutPageComponent from "../../components/AboutPageComponent";
+import { AboutPageCard, SocialMediaCard } from "../../components/Card";
 import Button from "../../components/Button";
-import SocialMedia from "../../components/SocialMedia";
 import {
   TiSocialFacebook,
   TiSocialLinkedin,
@@ -23,13 +22,10 @@ const About = () => {
           odit voluptate neque illum ex.
         </p>
         <div className={Style.gridContainer}>
-          <AboutPageComponent fieldName="Name" value="Aayush Raut" />
-          <AboutPageComponent
-            fieldName="Email"
-            value="aayussraut.ar@gmail.com"
-          />
-          <AboutPageComponent fieldName="Phone" value="+9779861990090" />
-          <AboutPageComponent fieldName="Address" value="Bhaktapur, Nepal" />
+          <AboutPageCard fieldName="Name" value="Aayush Raut" />
+          <AboutPageCard fieldName="Email" value="aayussraut.ar@gmail.com" />
+          <AboutPageCard fieldName="Phone" value="+9779861990090" />
+          <AboutPageCard fieldName="Address" value="Bhaktapur, Nepal" />
         </div>
         <div>
           <Button name="My CV" />
@@ -38,19 +34,19 @@ const About = () => {
       </div>
       <div className={Style.container}>
         <div className={Style.socialMedia}>
-          <SocialMedia
+          <SocialMediaCard
             link="https://www.facebook.com/aayussraut/"
             icon={<TiSocialFacebook size={30} />}
           />
-          <SocialMedia
+          <SocialMediaCard
             link="https://www.linkedin.com/in/aayussraut/"
             icon={<TiSocialLinkedin size={30} />}
           />
-          <SocialMedia
+          <SocialMediaCard
             link="https://www.github.com/aayussraut/"
             icon={<AiFillGithub size={30} />}
           />
-          <SocialMedia
+          <SocialMediaCard
             link="https://www.twitter.com/aayussraut/"
             icon={<TiSocialTwitter size={30} />}
           />

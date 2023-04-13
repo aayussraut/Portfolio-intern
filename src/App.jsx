@@ -8,18 +8,7 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <div>
-      {/* <h1>Hello World</h1> */}
       <Header />
-      {/* <SocialMedia />
-      <br />
-      <Button />
-      <br />
-      <br />
-      <ProjectCard />
-      <br />
-      <SkillCard />
-      <br />
-      <Form /> */}
       <Home />
       <About />
       <Skills />

@@ -1,7 +1,7 @@
 import React from "react";
 
 import Style from "./Skills.module.css";
-import SkillCard from "../../components/SkillCard";
+import { SkillCard } from "../../components/Card";
 
 import { FaReact, FaCss3, FaHtml5, FaNodeJs } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";

@@ -1,0 +1,114 @@
+.social {
+  height: 50px;
+  width: 50px;
+  background-color: #4bc1ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  /* justify-items: center; */
+}
+
+.socialLink {
+  color: white;
+}
+
+.social:hover {
+  transform: scale(1.1);
+  margin: 5px;
+  background-color: rgb(14, 177, 177);
+  color: grey;
+  box-shadow: 10px 10px 10px rgba(207, 188, 188, 0.1);
+}
+
+.skillCard {
+  width: 180px;
+  height: 200px;
+  background-color: #f5f5f4;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* padding: 20px; */
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  /* position: relative; */
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  color: grey;
+}
+
+.skillCard:hover {
+  background-color: #4bc1ce;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(22, 21, 21, 0.46);
+  margin: 5px;
+}
+
+.card {
+  width: 400px;
+  height: 100%;
+  background-color: #f5f5f4;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* padding: 20px; */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  /* position: relative; */
+  overflow: hidden;
+  /* margin: 40px */
+  /* padding: 10px; */
+}
+
+.grey,
+.link {
+  color: grey;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.link {
+  color: rgb(61, 56, 56);
+  height: 40px;
+}
+
+.link:hover {
+  color: #4bc1ce;
+  transform: scale(1.1);
+  margin: 5px;
+}
+
+.bar {
+  /* margin-right: 10px; */
+  width: 4px;
+  background-color: #4bc1ce;
+}
+.box {
+  padding: 15px;
+}
+.header {
+  position: relative;
+  font-size: 20px;
+}
+h2 {
+  margin: 0;
+}
+h2::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: -16px;
+  width: 15px;
+  height: 10px;
+  border-radius: 0 10px 10px 0;
+  background-color: #4bc1ce;
+}
+.container {
+  margin: 10px;
+}
