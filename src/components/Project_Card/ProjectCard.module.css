@@ -29,6 +29,8 @@
 
 .link:hover {
   color: #4bc1ce;
+  transform: scale(1.1);
+  margin: 5px;
 }
 
 .bar {

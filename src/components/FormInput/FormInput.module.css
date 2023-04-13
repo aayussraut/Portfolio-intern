@@ -1,0 +1,39 @@
+.formInput {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+  padding: 0.5rem 0 0.5rem 0.75rem;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.formInput:focus-within {
+  box-shadow: 0 0 0 2px #4bc1ce;
+}
+
+.formInput > label {
+  color: grey;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.formInput > input {
+  background-color: transparent;
+  border: none;
+  outline: 1px solid grey;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-right: 0.5rem;
+}
+
+.formInput > textarea {
+  background-color: transparent;
+  border: none;
+  outline: 1px solid grey;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-right: 0.5rem;
+}
