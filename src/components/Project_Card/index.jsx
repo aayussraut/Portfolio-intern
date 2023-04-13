@@ -1,5 +1,6 @@
 import React from "react";
 import Style from "./ProjectCard.module.css";
+import { FaGithub } from "react-icons/fa";
 const ProjectCard = ({ name, description, link }) => {
   return (
     <div className={Style.container}>
@@ -11,7 +12,7 @@ const ProjectCard = ({ name, description, link }) => {
           </div>
           <p className={Style.grey}>{description}</p>
           <a href={link} className={Style.link}>
-            Github
+            <FaGithub size={30} />
           </a>
         </div>
       </div>

@@ -3,7 +3,7 @@ import img1 from "../../assets/img1.jpg";
 import Style from "./Home.module.css";
 const Home = () => {
   return (
-    <div className={Style.homePage}>
+    <div id="Home" className={Style.homePage}>
       <div className={Style.imgDiv}>
         <img className={Style.homeimg} src={img1} />
       </div>

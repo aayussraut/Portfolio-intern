@@ -21,4 +21,7 @@
 .skillCard:hover {
   background-color: #4bc1ce;
   color: white;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(22, 21, 21, 0.46);
+  margin: 5px;
 }

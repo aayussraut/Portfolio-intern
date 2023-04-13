@@ -7,7 +7,7 @@ import { FaReact, FaCss3, FaHtml5, FaNodeJs } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 const Skills = () => {
   return (
-    <div className={Style.skillPage}>
+    <div id="Skills" className={Style.skillPage}>
       <div>
         <p className={Style.subtitle}>What I Know</p>
         <p className={Style.title}>
