@@ -21,13 +21,13 @@ const Contact = () => {
   };
 
   return (
-    <div className={Style.Contact}>
+    <div id="Contact" className={Style.Contact}>
       <div>
         <p className={Style.subtitle}>Wanna Connect With Me</p>
         <p className={Style.title}>Contact Me</p>
       </div>
       <div className={Style.wrapper}>
-        <div className={Style.contactInfo}>
+        <div id="ContactForm" className={Style.contactInfo}>
           <div className={Style.contactInfoWrapper}>
             <ContactInfo
               icon={<IoPhonePortrait size={50} />}
@@ -36,9 +36,9 @@ const Contact = () => {
             />
             <ContactInfo
               icon={<IoMail size={50} />}
-              link="mailto:aayussraut.ar@gamil.com
+              link="mailto:aayussraut.ar@gmail.com
             "
-              linkText="aayussraut.ar@gamil.com "
+              linkText="aayussraut.ar@gmail.com "
             />
             <ContactInfo
               icon={<IoLogoLinkedin size={50} />}
