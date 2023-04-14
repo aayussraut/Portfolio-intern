@@ -14,7 +14,7 @@ const Skills = () => {
           My <span style={{ color: "#4bc1ce" }}> Skills</span>
         </p>
       </div>
-      <div className={Style.skillCard}>
+      <div className={`${Style.skillCard}  ${Style.item} `}>
         <SkillCard skill="HTML" icon={<FaHtml5 size={50} />} />
         <SkillCard skill="CSS" icon={<FaCss3 size={50} />} />
         <SkillCard skill="JavaScript" icon={<DiJavascript1 size={50} />} />
