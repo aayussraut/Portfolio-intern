@@ -1,12 +1,9 @@
 import React from "react";
-import img1 from "../../assets/img1.jpg";
+import image1 from "../../assets/home.webp";
 import Style from "./Home.module.css";
 const Home = () => {
   return (
     <div id="Home" className={Style.homePage}>
-      <div className={Style.imgDiv}>
-        <img className={Style.homeimg} src={img1} />
-      </div>
       <div className={Style.intro}>
         <span className={Style.homeHeader1}>
           Hello I'm
@@ -21,6 +18,9 @@ const Home = () => {
           voluptates quis, reiciendis obcaecati totam iusto nostrum tenetur
           recusandae. Quia aperiam tenetur iste.
         </p>
+      </div>
+      <div className={Style.imgDiv}>
+        <img className={Style.homeimg} src={image1} />
       </div>
     </div>
   );
