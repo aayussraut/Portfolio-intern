@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const ProjectCard = ({ name, description, link }) => {
   return (
     <div className={Style.container}>
-      <div className={Style.card}>
+      <div className={Style.projectCard}>
         <div className={Style.bar}></div>
         <div className={Style.box}>
           <div className={Style.header}>
@@ -35,17 +35,8 @@ const SkillCard = ({ skill, icon }) => {
 const AboutPageCard = ({ fieldName, value }) => {
   return (
     <div>
-      <p
-        style={{
-          fontSize: "20px",
-          fontWeight: "bold",
-          color: "#4bc1ce",
-          margin: "0px",
-        }}
-      >
-        {fieldName}
-      </p>
-      <p style={{ fontSize: "20px", color: "grey", margin: "0px" }}>{value}</p>
+      <p className={Style.aboutCardFieldName}>{fieldName}</p>
+      <p className={Style.aboutCardValue}>{value}</p>
     </div>
   );
 };

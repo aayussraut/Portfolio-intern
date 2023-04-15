@@ -37,3 +37,15 @@
   font-weight: 300;
   margin-right: 0.5rem;
 }
+
+@media screen and (min-width: 756px) and (max-width: 1024px) {
+  .formInput {
+    display: flex;
+    margin: 5x;
+    padding: 5px;
+    flex-direction: column;
+    padding: 0.5rem 0 0.5rem 0.75rem;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+}
