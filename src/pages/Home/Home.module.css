@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: row; */
+  width: 100vw;
 }
 
 .intro {
@@ -10,28 +10,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
-  width: 600px;
-  padding: 10px;
+  height: min-content;
+  width: 50vw;
+  padding-left: 180px;
 }
+
 .imgDiv {
-  /* margin-left: 50px; */
-  height: 250px;
-  width: 400px;
+  height: min-content;
+  width: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-items: center;
   margin-right: 30px;
-
-  /* background-color: #4bc1ce; */
+  padding-right: 100px;
 }
 .homeimg {
-  /* display: flex; */
-  width: 300px;
-  height: 500px;
-
-  /* object-fit: cover; */
-  /* object-position: center; */
+  width: 800px;
+  height: 600px;
 }
 
 .homeHeader1,
@@ -48,10 +44,10 @@
   /* color: #4bc1ce; */
 }
 .headerSpan4 {
-  color: black;
+  color: #4bc1ce;
 }
 .headerSpan1 {
-  color: black;
+  color: #4bc1ce;
   font-size: 3rem;
   font-weight: 600;
 }
@@ -59,4 +55,117 @@
   font-weight: 400;
   color: grey;
   font-size: x-large;
+}
+
+@media screen and (max-width: 755px) {
+  .homePage {
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+    /* padding-right: 40px; */
+  }
+  .intro {
+    margin-left: 0px;
+    width: 100vw;
+    height: min-content;
+    padding: 0px;
+  }
+  .homeimg {
+    width: 300px;
+    height: 300px;
+  }
+  .imgDiv {
+    height: min-content;
+    width: 100vw;
+    margin-right: 0px;
+    padding-right: 20px;
+  }
+
+  .homeHeader1,
+  .homeHeader4 {
+    font-size: 1rem;
+  }
+
+  .homeHeader1 {
+    font-size: 1.3rem;
+  }
+  .headerSpan4 {
+    font-size: 1.3rem;
+  }
+  .headerSpan1 {
+    font-size: 2rem;
+  }
+  .homeParagraph {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 756px) and (max-width: 1024px) {
+  .intro {
+    margin-left: 40px;
+    padding-left: 0px;
+  }
+
+  .homeimg {
+    width: 450px;
+    height: 450px;
+  }
+  .imgDiv {
+    padding-right: 20px;
+  }
+  .homeHeader1,
+  .homeHeader4 {
+    font-size: 1rem;
+  }
+
+  .homeHeader1 {
+    font-size: 1.3rem;
+  }
+  .headerSpan4 {
+    font-size: 1.3rem;
+  }
+  .headerSpan1 {
+    font-size: 2rem;
+  }
+  .homeParagraph {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .intro {
+    margin-left: 40px;
+  }
+
+  .homeimg {
+    width: 450px;
+    height: 450px;
+  }
+  .imgDiv {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .homePage {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .intro {
+    margin-left: 0px;
+    width: 100vw;
+    height: min-content;
+    padding: 0px;
+  }
+  .homeimg {
+    width: 400px;
+    height: 400px;
+  }
+  .imgDiv {
+    margin-right: 0px;
+    padding-right: 68px;
+  }
+  .homeParagraph {
+    font-size: 1.2rem;
+    padding-right: 50px;
+  }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import Style from "./Button.module.css";
-import Aayush_CV from "../../../public/Aayush_CV.pdf";
 const Button = ({ name, onClick }) => {
   const value = name;
   return (

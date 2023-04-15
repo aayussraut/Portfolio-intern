@@ -30,23 +30,23 @@ const Contact = () => {
         <div id="ContactForm" className={Style.contactInfo}>
           <div className={Style.contactInfoWrapper}>
             <ContactInfo
-              icon={<IoPhonePortrait size={50} />}
+              icon={<IoPhonePortrait size={30} />}
               link="tel:+9779861990090"
               linkText="+9779861990090"
             />
             <ContactInfo
-              icon={<IoMail size={50} />}
+              icon={<IoMail size={30} />}
               link="mailto:aayussraut.ar@gmail.com
             "
               linkText="aayussraut.ar@gmail.com "
             />
             <ContactInfo
-              icon={<IoLogoLinkedin size={50} />}
+              icon={<IoLogoLinkedin size={30} />}
               link="https://www.linkedin.com/in/aayussraut/"
               linkText="Aayush Raut"
             />
             <ContactInfo
-              icon={<IoLogoTwitter size={50} />}
+              icon={<IoLogoTwitter size={30} />}
               link="https://twitter.com/aayussraut"
               linkText="Aayush Raut"
             />
