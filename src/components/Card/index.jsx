@@ -32,11 +32,11 @@ const SkillCard = ({ skill, icon }) => {
   );
 };
 
-const AboutPageCard = ({ fieldName, value }) => {
+const AboutPageCard = ({ title, description }) => {
   return (
     <div>
-      <p className={Style.aboutCardFieldName}>{fieldName}</p>
-      <p className={Style.aboutCardValue}>{value}</p>
+      <p className={Style.aboutCardFieldName}>{title}</p>
+      <p className={Style.aboutCardValue}>{description}</p>
     </div>
   );
 };
