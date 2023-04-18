@@ -12,14 +12,12 @@
 .button:hover {
   transform: scale(1.1);
   box-shadow: 0 2px 8px rgba(22, 21, 21, 0.46);
-  margin: 5px;
   background-color: rgb(14, 177, 177);
   color: grey;
   box-shadow: 10px 10px 10px rgba(207, 188, 188, 0.1);
 }
 
 .button2 {
-  /* background-color: #4bc1ce; */
   color: gray;
   border: 1px solid #4bc1ce;
   padding: 10px 20px;
@@ -33,7 +31,6 @@
 .button2:hover {
   transform: scale(1.1);
   box-shadow: 0 2px 8px rgba(22, 21, 21, 0.46);
-  margin: 5px;
 }
 
 @media screen and (min-width: 756px) and (max-width: 1024px) {
