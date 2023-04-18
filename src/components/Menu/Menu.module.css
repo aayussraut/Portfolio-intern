@@ -1,20 +1,47 @@
-.flex {
+.menuDesktop {
+  width: 55%;
   display: flex;
-  color: #ff0000;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
-.menu {
-  width: 100%;
-  /* margin-left: auto; */
-
-  justify-content: space-between;
-  align-items: center;
-
-  /* border: solid 2px blue; */
+.menuMobile {
+  position: fixed;
+  height: 100vh;
+  width: 50vw;
+  background-color: #f5f5f5;
+  top: 0;
+  right: -100%;
+  transition: right 0.3s ease-in-out;
+  z-index: 999;
+  overflow-y: hidden;
+  bottom: 0;
+}
+.overlay {
+  color: grey;
+  margin-right: 20px;
+}
+.overlay:active {
+  color: #4bc1ce;
+  transform: scale(1.1);
+  margin: 5px;
 }
 
-.padding {
-  margin-right: 80px;
-  margin-left: auto;
+.menuMobileItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  height: 100%;
+}
+
+.menuOpen {
+  right: 0;
+  /* border: solid 1px red; */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .menuDesktop {
+    width: 85%;
+    margin-right: 0px;
+  }
 }
