@@ -1,10 +1,25 @@
 .logo {
   margin: 160px;
   display: flex;
-  width: 150px;
+  width: min-content;
+  /* margin-right: auto; */
 }
 
 .span {
   color: #4bc1ce;
   margin-left: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    margin: 0px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    margin: 0px;
+    margin-left: 15px;
+  }
 }
