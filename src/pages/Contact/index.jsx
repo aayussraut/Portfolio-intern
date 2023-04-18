@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FormInput from "../../components/FormInput";
 import Style from "./Contact.module.css";
-import {
-  IoPhonePortrait,
-  IoMail,
-  IoLogoLinkedin,
-  IoLogoTwitter,
-} from "react-icons/io5";
+import data from "../../data/data.json";
+
+import * as Io from "react-icons/io5";
 import ContactInfo from "../../components/ContactInfo";
 const Contact = () => {
+  const [contactInfo, setContactInfo] = React.useState([]);
+
+  useEffect(() => {
+    const contactData = data[1].contactInfo;
+    setContactInfo(contactData);
+  });
   const [form, SetForm] = React.useState({
     name: "",
     email: "",
@@ -29,27 +32,16 @@ const Contact = () => {
       <div className={Style.wrapper}>
         <div id="ContactForm" className={Style.contactInfo}>
           <div className={Style.contactInfoWrapper}>
-            <ContactInfo
-              icon={<IoPhonePortrait size={30} />}
-              link="tel:+9779861990090"
-              linkText="+9779861990090"
-            />
-            <ContactInfo
-              icon={<IoMail size={30} />}
-              link="mailto:aayussraut.ar@gmail.com
-            "
-              linkText="aayussraut.ar@gmail.com "
-            />
-            <ContactInfo
-              icon={<IoLogoLinkedin size={30} />}
-              link="https://www.linkedin.com/in/aayussraut/"
-              linkText="Aayush Raut"
-            />
-            <ContactInfo
-              icon={<IoLogoTwitter size={30} />}
-              link="https://twitter.com/aayussraut"
-              linkText="Aayush Raut"
-            />
+            {contactInfo.map((item, index) => {
+              return (
+                <ContactInfo
+                  key={index}
+                  icon={React.createElement(Io[`${item.icon}`], { size: 30 })}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              );
+            })}
           </div>
         </div>
         <div className={Style.formInput}>

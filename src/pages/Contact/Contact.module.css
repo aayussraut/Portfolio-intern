@@ -11,14 +11,9 @@
   margin: 15px;
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 100%;
-  width: 100%; */
 }
 
 .contactInfo {
-  /* padding-left: 500px; */
   padding: 0.5rem;
   width: 50vw;
 }
@@ -32,7 +27,6 @@
 }
 
 .formInput {
-  /* margin-left: 500px; */
   padding: 0.5rem;
   width: 50vw;
 }
@@ -84,10 +78,6 @@
     margin: 0px;
     display: flex;
     flex-direction: column-reverse;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 100%;
-    width: 100%; */
   }
 
   .contactInfo {
@@ -103,6 +93,7 @@
     margin-top: 10px;
   }
   .formInputWrapper {
+    padding-left: 0px;
     margin-left: 20px;
   }
 }
@@ -121,11 +112,12 @@
   .contactInfoWrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-    padding: 10px;
+    grid-gap: 0px;
+    padding: 0px;
     width: 100vw;
-    margin-left: 60px;
-    margin-top: 30px;
+    margin-left: 0px;
+    margin-top: 10px;
+    align-items: center;
   }
   .formInputWrapper {
     margin-left: 150px;
