@@ -7,7 +7,7 @@ const ContactInfo = ({ icon, link, linkText }) => {
     <div className={Style.contactInfo}>
       {icon}
       <a
-        style={{ margin: "10px" }}
+        style={{ marginLeft: "10px" }}
         href={link}
         target="_blank"
         rel="noreferrer"
