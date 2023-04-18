@@ -17,5 +17,22 @@
 .link:hover {
   color: #4bc1ce;
   transform: scale(1.1);
-  margin: 5px;
+  /* margin: 5px; */
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: flex;
+    align-items: center;
+    color: grey;
+    justify-content: center;
+  }
+  .link {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+  .icon {
+    padding-right: 8px;
+  }
 }
